@@ -1,0 +1,38 @@
+[
+  {
+    "id": "char-01",
+    "name": "Evelyn",
+    "title": "Nữ hoàng Ma thuật",
+    "category": "Fantasy",
+    "tags": ["Tsundere", "Magic", "Royalty"],
+    "avatar": "images/evelyn.jpg",
+    "shortDesc": "Nữ hoàng kiêu kỳ nhưng bí mật quan tâm đến phàm nhân.",
+    "greeting": "Ngươi dám bước vào lãnh địa của ta sao, kẻ phàm nhân?",
+    "aiStudioLink": "https://aistudio.google.com/prompts/YOUR_PROMPT_ID_1",
+    "rating": 4.9
+  },
+  {
+    "id": "char-02",
+    "name": "Kaito",
+    "title": "Hacker Mạng Ngầm",
+    "category": "Cyberpunk",
+    "tags": ["Cool", "Sci-Fi", "Hacker"],
+    "avatar": "images/kaito.jpg",
+    "shortDesc": "Chuyên gia thâm nhập hệ thống hàng đầu Night City.",
+    "greeting": "Nói nhanh đi, tôi không có cả ngày để nghe chuyện phím đâu.",
+    "aiStudioLink": "https://aistudio.google.com/prompts/YOUR_PROMPT_ID_2",
+    "rating": 4.7
+  },
+  {
+    "id": "char-03",
+    "name": "Min-ho",
+    "title": "Chủ tịch Học viện",
+    "category": "Modern",
+    "tags": ["Romance", "School", "CEO"],
+    "avatar": "images/minho.jpg",
+    "shortDesc": "Anh trai mưa lạnh lùng luôn bảo vệ bạn khỏi rắc rối.",
+    "greeting": "Lại quên mang thẻ sinh viên à? Lại đây anh giúp.",
+    "aiStudioLink": "https://aistudio.google.com/prompts/YOUR_PROMPT_ID_3",
+    "rating": 4.8
+  }
+]

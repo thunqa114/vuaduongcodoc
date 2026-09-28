@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Roleplay Characters Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>🎭 My AI Roleplay Hub</h1>
+    <p>Khám phá và nhập vai cùng các nhân vật AI do tôi sáng tạo trên Google AI Studio</p>
+  </header>
+
+  <main class="container">
+    <!-- Thanh Tìm Kiếm & Thanh Danh Mục -->
+    <section class="filter-section">
+      <input type="text" id="searchInput" placeholder="🔍 Tìm kiếm nhân vật, từ khóa...">
+      
+      <!-- Danh mục Categories (Tự động tạo từ JS) -->
+      <div class="category-tabs" id="categoryContainer">
+        <button class="cat-btn active" data-cat="All">Tất cả</button>
+      </div>
+    </section>
+
+    <!-- Lưới hiển thị danh sách Nhân vật -->
+    <section class="char-grid" id="charGrid">
+      <!-- Các thẻ nhân vật sẽ tự động load ra đây -->
+    </section>
+  </main>
+
+  <!-- Popup Chi Tiết Nhân Vật (Modal) -->
+  <div class="modal-overlay" id="charModal">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Nội dung modal load qua JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
